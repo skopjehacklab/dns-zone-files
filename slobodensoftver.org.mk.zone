@@ -1,0 +1,39 @@
+;slobodensoftver.org.mk
+slobodensoftver.org.mk. 86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010116 43200 3600 1209600 180
+
+slobodensoftver.org.mk. 86400   IN  NS  ns0.slobodensoftver.org.mk.
+slobodensoftver.org.mk. 86400   IN  NS  ns1.slobodensoftver.org.mk.
+slobodensoftver.org.mk. 86400   IN  NS  ns2.slobodensoftver.org.mk.
+slobodensoftver.org.mk. 86400   IN  NS  ns3.slobodensoftver.org.mk.
+slobodensoftver.org.mk. 86400   IN  NS  ns4.slobodensoftver.org.mk.
+
+
+; glisha, dnsmadeeasy
+ns0.slobodensoftver.org.mk. 1800 IN A   208.94.148.2
+ns1.slobodensoftver.org.mk. 1800 IN A   208.80.124.2
+ns2.slobodensoftver.org.mk. 1800 IN A   208.80.126.2
+ns3.slobodensoftver.org.mk. 1800 IN A   208.80.125.2
+ns4.slobodensoftver.org.mk. 1800 IN A   208.80.127.2
+
+
+; Google
+slobodensoftver.org.mk. 1800    IN  MX  10 aspmx.l.google.com.
+slobodensoftver.org.mk. 1800    IN  MX  20 alt1.aspmx.l.google.com.
+slobodensoftver.org.mk. 1800    IN  MX  20 alt2.aspmx.l.google.com.
+slobodensoftver.org.mk. 1800    IN  MX  30 aspmx2.googlemail.com.
+slobodensoftver.org.mk. 1800    IN  MX  30 aspmx3.googlemail.com.
+
+calendar.slobodensoftver.org.mk. 1800 IN	CNAME	ghs.google.com.
+mail.slobodensoftver.org.mk. 	 1800 IN	CNAME	ghs.google.com.
+start.slobodensoftver.org.mk. 	 1800 IN	CNAME   ghs.google.com.
+npss.slobodensoftver.org.mk. 	 1800 IN	CNAME   ghs.google.com.
+
+
+; stama, dreamhost
+slobodensoftver.org.mk.		1800	IN  A   69.163.202.4
+odf.slobodensoftver.org.mk. 1800    IN  A   69.163.202.4
+
+www.slobodensoftver.org.mk. 1800    IN  CNAME   slobodensoftver.org.mk.
+
+slobodensoftver.org.mk. 	1800    IN  AAAA    2607:f298:1:109::d6b:1a1a
+

@@ -1,0 +1,47 @@
+;linux.net.mk
+linux.net.mk.       86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010107 43200 3600 1209600 180
+
+linux.net.mk.       86400   IN  NS  ns0.slobodensoftver.org.mk.
+linux.net.mk.       86400   IN  NS  ns1.slobodensoftver.org.mk.
+linux.net.mk.       86400   IN  NS  ns2.slobodensoftver.org.mk.
+linux.net.mk.       86400   IN  NS  ns3.slobodensoftver.org.mk.
+linux.net.mk.       86400   IN  NS  ns4.slobodensoftver.org.mk.
+
+
+; Google
+linux.net.mk.       1800    IN  MX  10 aspmx.l.google.com.
+linux.net.mk.       1800    IN  MX  20 alt1.aspmx.l.google.com.
+linux.net.mk.       1800    IN  MX  20 alt2.aspmx.l.google.com.
+linux.net.mk.       1800    IN  MX  30 aspmx2.googlemail.com.
+linux.net.mk.       1800    IN  MX  30 aspmx3.googlemail.com.
+linux.net.mk.       1800    IN  MX  30 aspmx4.googlemail.com.
+linux.net.mk.       1800    IN  MX  30 aspmx5.googlemail.com.
+
+ubuntu.linux.net.mk.    1800    IN  MX  10 aspmx.l.google.com.
+
+_jabber._tcp.linux.net.mk. 		1800 IN  SRV 5 0 5269 xmpp-server.l.google.com.
+_jabber._tcp.linux.net.mk. 		1800 IN  SRV 20 0 5269 xmpp-server1.l.google.com.
+_jabber._tcp.linux.net.mk. 		1800 IN  SRV 20 0 5269 xmpp-server2.l.google.com.
+_jabber._tcp.linux.net.mk. 		1800 IN  SRV 20 0 5269 xmpp-server3.l.google.com.
+_jabber._tcp.linux.net.mk. 		1800 IN  SRV 20 0 5269 xmpp-server4.l.google.com.
+
+_xmpp-server._tcp.linux.net.mk. 1800 IN SRV 5 0 5269 xmpp-server.l.google.com.
+_xmpp-server._tcp.linux.net.mk. 1800 IN SRV 20 0 5269 xmpp-server1.l.google.com.
+_xmpp-server._tcp.linux.net.mk. 1800 IN SRV 20 0 5269 xmpp-server2.l.google.com.
+_xmpp-server._tcp.linux.net.mk. 1800 IN SRV 20 0 5269 xmpp-server3.l.google.com.
+_xmpp-server._tcp.linux.net.mk. 1800 IN SRV 20 0 5269 xmpp-server4.l.google.com.
+
+calendar.linux.net.mk.  1800    IN  CNAME   ghs.google.com.
+docs.linux.net.mk.		1800    IN  CNAME   ghs.google.com.
+mail.linux.net.mk.		1800    IN  CNAME   ghs.google.com.
+
+; stama, dreamhost
+linux.net.mk.       	1800    IN  A   69.163.202.4
+gnome.linux.net.mk. 	1800    IN  A   69.163.202.4
+stojmir.linux.net.mk.   1800    IN  A   69.163.202.4
+ubuntu.linux.net.mk.    1800    IN  A   69.163.202.4
+ufo.linux.net.mk.		1800    IN  A   69.163.202.4
+arangel.linux.net.mk.   1800    IN  A   69.163.219.141
+
+; glisha, webfaction
+planet.linux.net.mk.    1800    IN  CNAME   georgi.softver.org.mk.

@@ -1,0 +1,14 @@
+;opensource.org.mk
+opensource.org.mk.    86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010103 43200 3600 1209600 180
+
+opensource.org.mk.    86400   IN  NS  ns0.slobodensoftver.org.mk.
+opensource.org.mk.    86400   IN  NS  ns1.slobodensoftver.org.mk.
+opensource.org.mk.    86400   IN  NS  ns2.slobodensoftver.org.mk.
+opensource.org.mk.    86400   IN  NS  ns3.slobodensoftver.org.mk.
+opensource.org.mk.    86400   IN  NS  ns4.slobodensoftver.org.mk.
+
+; dnsmadeeasy redirect cluster to http://www.slobodensoftver.org.mk/about_free_software_macedonia
+opensource.org.mk.    3600    IN  A   208.94.146.70
+opensource.org.mk.    3600    IN  A   208.94.146.71
+opensource.org.mk.    3600    IN  A   208.94.146.80
+opensource.org.mk.    3600    IN  A   208.94.146.81
