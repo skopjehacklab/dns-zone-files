@@ -1,0 +1,53 @@
+;spodeli.org
+spodeli.org. 86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010116 43200 3600 1209600 180
+
+spodeli.org. 86400   IN  NS  ns0.slobodensoftver.org.mk.
+spodeli.org. 86400   IN  NS  ns1.slobodensoftver.org.mk.
+spodeli.org. 86400   IN  NS  ns2.slobodensoftver.org.mk.
+spodeli.org. 86400   IN  NS  ns3.slobodensoftver.org.mk.
+spodeli.org. 86400   IN  NS  ns4.slobodensoftver.org.mk.
+
+
+; Google
+spodeli.org. 1800    IN  MX  10 aspmx.l.google.com.
+spodeli.org. 1800    IN  MX  20 alt1.aspmx.l.google.com.
+spodeli.org. 1800    IN  MX  20 alt2.aspmx.l.google.com.
+spodeli.org. 1800    IN  MX  30 aspmx2.googlemail.com.
+spodeli.org. 1800    IN  MX  30 aspmx3.googlemail.com.
+
+spodeli.org. 1800   IN  MX  TXT google-site-verification=2PKoxssXaocX99kzodJsqfBShxQpRhpo69YNabTujag
+
+mail.spodeli.org.                   1800    IN  CNAME   ghs.google.com.
+b10g.spodeli.org.                   1800    IN  CNAME   ghs.google.com.
+google953dd4d9e029ee02.spodeli.org  1800    IN  CNAME   ghs.google.com.
+
+
+; stama, dreamhost
+spodeli.org.		1800	IN  A   69.163.202.4
+acta.spodeli.org.   1800    IN  A   69.163.253.84
+blog.spodeli.org.   1800    IN  A   173.236.255.178
+wiki.spodeli.org.   1800    IN  A   173.236.255.178
+podcast.spodeli.org 1800    IN  A   173.236.253.189
+
+www.spodeli.org.    1800    IN  CNAME   spodeli.org.
+
+
+; damjan, vps
+bugs.spodeli.org.       1800    IN  CNAME   damjan.softver.org.mk.
+noc.spodeli.org.        1800    IN  CNAME   damjan.softver.org.mk.
+
+
+; spion, heroku
+status.spodeli.org.     1800    IN  CNAME   kikastatus.herokuapp.com.
+
+
+; miopa, webfaction
+radio.spodeli.org.     1800    IN  A   62.212.65.160
+
+
+; bidikov, finki
+live.spodeli.org.       1800    IN  A   194.149.136.174
+
+
+; vladanovic, webfaction
+kika.spodeli.org.       1800    IN  A   108.59.2.79
