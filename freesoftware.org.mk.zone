@@ -1,14 +1,5 @@
-;freesoftware.org.mk
-freesoftware.org.mk.    86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010103 43200 3600 1209600 180
-
-freesoftware.org.mk.    86400   IN  NS  ns0.slobodensoftver.org.mk.
-freesoftware.org.mk.    86400   IN  NS  ns1.slobodensoftver.org.mk.
-freesoftware.org.mk.    86400   IN  NS  ns2.slobodensoftver.org.mk.
-freesoftware.org.mk.    86400   IN  NS  ns3.slobodensoftver.org.mk.
-freesoftware.org.mk.    86400   IN  NS  ns4.slobodensoftver.org.mk.
-
-; dnsmadeeasy redirect cluster to http://www.slobodensoftver.org.mk/about_free_software_macedonia
-freesoftware.org.mk.    3600    IN  A   208.94.146.70
-freesoftware.org.mk.    3600    IN  A   208.94.146.71
-freesoftware.org.mk.    3600    IN  A   208.94.146.80
-freesoftware.org.mk.    3600    IN  A   208.94.146.81
+; freesoftware.org.mk
+; ossm.org.mk
+; opensource.org.mk
+;
+; Овие ќе бидат на dreamhost кај Миша или на webfaction бидејќи прават само http редирекција.
