@@ -1,0 +1,11 @@
+;ie.mk
+ie.mk.	86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010107 43200 3600 1209600 180
+
+ie.mk.	86400   IN  NS  ns0.slobodensoftver.org.mk.
+ie.mk.	86400   IN  NS  ns1.slobodensoftver.org.mk.
+ie.mk.	86400   IN  NS  ns2.slobodensoftver.org.mk.
+ie.mk.	86400   IN  NS  ns3.slobodensoftver.org.mk.
+ie.mk.	86400   IN  NS  ns4.slobodensoftver.org.mk.
+
+; stama, dreamhost
+ie.mk.	1800    IN  A   69.163.202.4
