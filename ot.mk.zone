@@ -9,7 +9,7 @@ ot.mk.          86400   IN  NS  ns4.dnsmadeeasy.com.
 
 
 ; glisha, webfaction
-ot.mk.				1800    IN  A       95.211.171.86
+ot.mk.				1800    IN  A   95.211.171.86
 aparat.ot.mk.		1800    IN  A   95.211.171.86
 blog.ot.mk.     	1800    IN  A   95.211.171.86
 convertor.ot.mk.    1800    IN  A   95.211.171.86
@@ -19,6 +19,8 @@ convertor.ot.mk.    1800    IN  A   95.211.171.86
 kajmak.ot.mk.       1800    IN  A   95.211.171.86
 
 www.ot.mk.			1800    IN	CNAME	ot.mk.
+domarpi.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
+domawrt.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
 
 ot.mk.          	1800    IN  AAAA    2001:1af8:4020:a007:1::1b
 convertor.ot.mk.    1200    IN  AAAA    2001:1af8:4020:a007:1::1b
@@ -43,5 +45,9 @@ kalkulator.ot.mk.   1800    IN  CNAME   vladan.github.com.
 
 
 ; hacklab
+hacklab.ot.mk.          60      IN  CNAME    skopjehacklab.no-ip.org.
 dvoarak.hacklab.ot.mk.  1800    IN  AAAA    2001:5c0:1500:6000:20c:76ff:fe5d:1c9c
 
+
+; aleks
+kompjutor.ot.mk.     60  IN  CNAME   kompjutor.hopto.org.
