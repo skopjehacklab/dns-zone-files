@@ -59,3 +59,6 @@ bidikov.softver.org.mk. 1800    IN  CNAME   vladislav.bidikov.com.mk.
 ipv6.softver.org.mk.    1800    IN  AAAA    2001:5c0:1400:b::57b3
 
 
+; novica, dreamhost
+novica.softver.org.mk.  1800    IN  A   69.163.224.209
+
