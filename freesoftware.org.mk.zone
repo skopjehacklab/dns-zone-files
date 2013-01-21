@@ -1,1 +1,17 @@
-slobodensoftver.org.mk.zone
+;freesoftware.org.mk
+freesoftware.org.mk. 86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010116 43200 3600 1209600 180
+
+freesoftware.org.mk. 86400   IN  NS  ns0.freesoftware.org.mk.
+freesoftware.org.mk. 86400   IN  NS  ns1.freesoftware.org.mk.
+freesoftware.org.mk. 86400   IN  NS  ns2.freesoftware.org.mk.
+freesoftware.org.mk. 86400   IN  NS  ns3.freesoftware.org.mk.
+freesoftware.org.mk. 86400   IN  NS  ns4.freesoftware.org.mk.
+
+
+; damjan, vps
+freesoftware.org.mk.        1800	IN  A   77.93.223.195
+
+www.freesoftware.org.mk. 1800    IN  CNAME   freesoftware.org.mk.
+
+freesoftware.org.mk. 	1800    IN  AAAA    2a01:430:17:1::5a
+
