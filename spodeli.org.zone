@@ -26,7 +26,6 @@ google953dd4d9e029ee02.spodeli.org  1800    IN  CNAME   ghs.google.com.
 spodeli.org.		1800	IN  A   69.163.202.4
 acta.spodeli.org.   1800    IN  A   69.163.253.84
 blog.spodeli.org.   1800    IN  A   173.236.255.178
-wiki.spodeli.org.   1800    IN  A   173.236.255.178
 podcast.spodeli.org 1800    IN  A   173.236.253.189
 
 www.spodeli.org.    1800    IN  CNAME   spodeli.org.
@@ -35,7 +34,7 @@ www.spodeli.org.    1800    IN  CNAME   spodeli.org.
 ; damjan, vps
 bugs.spodeli.org.       1800    IN  CNAME   damjan.softver.org.mk.
 noc.spodeli.org.        1800    IN  CNAME   damjan.softver.org.mk.
-
+wiki.spodeli.org.       1800    IN  CNAME   damjan.softver.org.mk.
 
 ; spion, heroku
 status.spodeli.org.     1800    IN  CNAME   kikastatus.herokuapp.com.
