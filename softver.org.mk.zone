@@ -9,9 +9,11 @@ softver.org.mk.     86400   IN  NS  ns4.slobodensoftver.org.mk.
 
 
 ; damjan, vps
+softver.org.mk.         1800    IN  A   77.93.223.195
 damjan.softver.org.mk.  1800    IN  A   77.93.223.195
 damjan.softver.org.mk.  1800    IN  AAAA    2a01:430:17:1::5a
 
+www.softver.org.mk.                 1800    IN  CNAME   softver.org.mk.
 paste.softver.org.mk.               1800    IN  CNAME   gdamjan.iriscouch.com.
 irc.softver.org.mk.                 1800    IN  CNAME   damjan.softver.org.mk.
 db.softver.org.mk.                  1800    IN  CNAME   damjan.softver.org.mk.
@@ -23,9 +25,6 @@ lists.softver.org.mk.   1800    IN  TXT "v=spf1" "ip4:77.93.223.195" "~all"
 
 
 ; glisha, webfaction
-softver.org.mk.     1800    IN  A       95.211.171.86
-www.softver.org.mk. 1800    IN  CNAME   softver.org.mk.
-
 georgi.softver.org.mk.  1800    IN  A   95.211.171.86
 georgi.softver.org.mk.  1800    IN  AAAA    2001:1af8:4020:a007:1::1b
 
@@ -41,8 +40,6 @@ aleks.softver.org.mk.   1800    IN  CNAME   kompjutor.hopto.org.
 anaris.softver.org.mk.  1800    IN  A   173.236.252.103
 el3na77.softver.org.mk. 1800    IN  A   69.163.207.200
 gulic.softver.org.mk.   1800    IN  A   69.163.207.200
-kitka.softver.org.mk.   1800    IN  A   69.163.219.141
-marijat.softver.org.mk. 1800    IN  A   69.163.202.118
 tamara.softver.org.mk.  1800    IN  A   69.163.207.132
 
 
