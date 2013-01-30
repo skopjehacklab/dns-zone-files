@@ -15,7 +15,7 @@ spodeli.org. 1800    IN  MX  20 alt2.aspmx.l.google.com.
 spodeli.org. 1800    IN  MX  30 aspmx2.googlemail.com.
 spodeli.org. 1800    IN  MX  30 aspmx3.googlemail.com.
 
-spodeli.org. 1800   IN  MX  TXT google-site-verification=2PKoxssXaocX99kzodJsqfBShxQpRhpo69YNabTujag
+spodeli.org. 1800   IN TXT google-site-verification=2PKoxssXaocX99kzodJsqfBShxQpRhpo69YNabTujag
 
 mail.spodeli.org.                   1800    IN  CNAME   ghs.google.com.
 b10g.spodeli.org.                   1800    IN  CNAME   ghs.google.com.
