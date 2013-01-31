@@ -45,7 +45,6 @@ kalkulator.ot.mk.   1800    IN  CNAME   vladan.github.com.
 
 
 ; hacklab
-hacklab.ot.mk.          60      IN  CNAME    skopjehacklab.no-ip.org.
 dvoarak.hacklab.ot.mk.  1800    IN  AAAA    2001:5c0:1500:6000:20c:76ff:fe5d:1c9c
 
 
@@ -59,4 +58,5 @@ kompjutor.ot.mk.     60  IN  CNAME   kompjutor.hopto.org.
 ; Add them here for reference.
 ; 
 ;;damjan.ot.mk.
+;;hacklab.ot.mk.
 
