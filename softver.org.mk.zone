@@ -32,13 +32,13 @@ irclogger.softver.org.mk.   1800    IN  CNAME   georgi.softver.org.mk.
 kajmakot.softver.org.mk.    1800    IN  CNAME   georgi.softver.org.mk.
 planet.softver.org.mk.      1800    IN  CNAME   georgi.softver.org.mk.
 
+el3na77.softver.org.mk.     1800    A   95.211.171.86
 
 ; aleks
 aleks.softver.org.mk.   1800    IN  CNAME   kompjutor.hopto.org.
 
 ; stama, dreamhost
 anaris.softver.org.mk.  1800    IN  A   173.236.252.103
-el3na77.softver.org.mk. 1800    IN  A   69.163.207.200
 gulic.softver.org.mk.   1800    IN  A   69.163.207.200
 tamara.softver.org.mk.  1800    IN  A   69.163.207.132
 
