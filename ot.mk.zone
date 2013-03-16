@@ -9,22 +9,22 @@ ot.mk.          86400   IN  NS  ns4.dnsmadeeasy.com.
 
 
 ; glisha, webfaction
-ot.mk.				1800    IN  A   95.211.171.86
-aparat.ot.mk.		1800    IN  A   95.211.171.86
-blog.ot.mk.     	1800    IN  A   95.211.171.86
-convertor.ot.mk.    1800    IN  A   95.211.171.86
-domejn.ot.mk.       1800    IN  A   95.211.171.86
-testip.ot.mk.       1800    IN	A   95.211.171.86
-convertor.ot.mk.    1800    IN  A   95.211.171.86
-kajmak.ot.mk.       1800    IN  A   95.211.171.86
+ot.mk.				1800    IN  A   5.153.9.57
+aparat.ot.mk.		1800    IN  A   5.153.9.57
+blog.ot.mk.     	1800    IN  A   5.153.9.57
+convertor.ot.mk.    1800    IN  A   5.153.9.57
+domejn.ot.mk.       1800    IN  A   5.153.9.57
+testip.ot.mk.       1800    IN	A   5.153.9.57
+convertor.ot.mk.    1800    IN  A   5.153.9.57
+kajmak.ot.mk.       1800    IN  A   5.153.9.57
 
 www.ot.mk.			1800    IN	CNAME	ot.mk.
 domarpi.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
 domawrt.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
 
-ot.mk.          	1800    IN  AAAA    2001:1af8:4020:a007:1::1b
-convertor.ot.mk.    1200    IN  AAAA    2001:1af8:4020:a007:1::1b
-domejn.ot.mk.       1800    IN  AAAA    2001:1af8:4020:a007:1::1b
+ot.mk.          	1800    IN  AAAA    2A03:8180:1001:00b2:17::2
+convertor.ot.mk.    1200    IN  AAAA    2A03:8180:1001:00b2:17::2
+domejn.ot.mk.       1800    IN  AAAA    2A03:8180:1001:00b2:17::2
 
 
 ; gdamjan, vps
