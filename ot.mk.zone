@@ -22,9 +22,9 @@ www.ot.mk.			1800    IN	CNAME	ot.mk.
 domarpi.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
 domawrt.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
 
-ot.mk.          	1800    IN  AAAA    2A03:8180:1001:00b2:17::2
-convertor.ot.mk.    1200    IN  AAAA    2A03:8180:1001:00b2:17::2
-domejn.ot.mk.       1800    IN  AAAA    2A03:8180:1001:00b2:17::2
+ot.mk.          	1800    IN  AAAA    2a03:8180:1001:b2:17::1b
+convertor.ot.mk.    1200    IN  AAAA    2a03:8180:1001:b2:17::1b
+domejn.ot.mk.       1800    IN  AAAA    2a03:8180:1001:b2:17::1b
 
 
 ; gdamjan, vps
