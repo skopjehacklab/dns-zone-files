@@ -31,6 +31,7 @@ georgi.softver.org.mk.  1800    IN  AAAA    2a03:8180:1001:b2:17::1b
 irclogger.softver.org.mk.   1800    IN  CNAME   georgi.softver.org.mk.
 kajmakot.softver.org.mk.    1800    IN  CNAME   georgi.softver.org.mk.
 planet.softver.org.mk.      1800    IN  CNAME   georgi.softver.org.mk.
+rss.softver.org.mk.         1800    IN  CNAME   georgi.softver.org.mk.
 
 el3na77.softver.org.mk.     1800    IN  A   5.153.9.57
 
