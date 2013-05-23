@@ -35,6 +35,8 @@ ipv4.ot.mk.     1800    IN  A   77.93.223.195
 ip.ot.mk.       1800    IN  AAAA    2a01:430:17:1::5a
 ipv6.ot.mk.     1800    IN  AAAA    2a01:430:17:1::5a
 
+gulab.ot.mk.    1800    IN  A    77.93.223.195
+
 
 ; [ilin], intovps
 server.ot.mk.	1800    IN  A   74.117.156.225
@@ -51,14 +53,12 @@ dvoarak.hacklab.ot.mk.  1800    IN  AAAA    2001:5c0:1500:6000:20c:76ff:fe5d:1c9
 ; aleks
 kompjutor.ot.mk.     60  IN  CNAME   kompjutor.hopto.org.
 
-
 ; dynamic dns recordes
 ;
-; Dynamic dns records must be manually added in the Dnsmadeeasy control panel. 
+; Dynamic dns records must be manually added in the Dnsmadeeasy control panel.
 ; Add them here for reference.
-; 
+;
 ;;damjan.ot.mk.
 ;;hacklab.ot.mk.
 ;;blizoo-hacklab.ot.mk
 ;;telekabel-hacklab.ot.mk
-
