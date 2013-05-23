@@ -1,5 +1,5 @@
 ;ot.mk
-ot.mk.          86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010178 43200 3600 1209600 180
+ot.mk.          86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010179 43200 3600 1209600 180
 
 ot.mk.          86400   IN  NS  ns0.dnsmadeeasy.com.
 ot.mk.          86400   IN  NS  ns1.dnsmadeeasy.com.
@@ -47,7 +47,7 @@ kalkulator.ot.mk.   1800    IN  CNAME   vladan.github.com.
 
 
 ; hacklab
-dvoarak.hacklab.ot.mk.  1800    IN  AAAA    2001:5c0:1500:6000:20c:76ff:fe5d:1c9c
+dvoarak.hacklab.ot.mk.  1800    IN  AAAA    2001:470:1f0b:109:20c:76ff:fe5d:1c9c
 
 
 ; aleks
