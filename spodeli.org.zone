@@ -41,7 +41,9 @@ status.spodeli.org.     1800    IN  CNAME   kikastatus.herokuapp.com.
 
 
 ; miopa, webfaction
-radio.spodeli.org.     1800    IN  A   62.212.65.160
+radio.spodeli.org.          1800    IN  A   62.212.65.160
+radio1.spodeli.org.         1800    IN  CNAME   radio.spodeli.org.
+radio1-static.spodeli.org   1800    IN  CNAME   radio.spodeli.org.
 
 
 ; bidikov, finki
@@ -50,3 +52,8 @@ live.spodeli.org.       1800    IN  A   194.149.136.174
 
 ; vladanovic, webfaction
 kika.spodeli.org.       1800    IN  A   108.59.2.79
+
+
+; glisha, webfaction
+radio2.spodeli.org.         1800    IN  CNAME   georgi.softver.org.mk.
+radio2-static.spodeli.org   1800    IN  CNAME   georgi.softver.org.mk.
