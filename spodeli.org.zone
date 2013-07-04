@@ -22,19 +22,17 @@ b10g.spodeli.org.                   1800    IN  CNAME   ghs.google.com.
 google953dd4d9e029ee02.spodeli.org  1800    IN  CNAME   ghs.google.com.
 
 
-; stama, dreamhost
-spodeli.org.		1800	IN  A   69.163.202.4
-blog.spodeli.org.   1800    IN  A   173.236.255.178
-
-www.spodeli.org.    1800    IN  CNAME   spodeli.org.
-
-
 ; damjan, vps
 bugs.spodeli.org.       1800    IN  CNAME   damjan.softver.org.mk.
 noc.spodeli.org.        1800    IN  CNAME   damjan.softver.org.mk.
 wiki.spodeli.org.       1800    IN  CNAME   damjan.softver.org.mk.
 podcast.spodeli.org.    1800    IN  CNAME   damjan.softver.org.mk.
 stopacta.spodeli.org.   1800    IN  CNAME   damjan.softver.org.mk.
+spodeli.org.            1800    IN  CNAME   damjan.softver.org.mk.
+blog.spodeli.org.       1800    IN  CNAME   damjan.softver.org.mk.
+
+www.spodeli.org.    1800    IN  CNAME   spodeli.org.
+
 
 ; spion, heroku
 status.spodeli.org.     1800    IN  CNAME   kikastatus.herokuapp.com.
