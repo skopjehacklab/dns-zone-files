@@ -1,5 +1,5 @@
 ;softver.org.mk
-softver.org.mk.     86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010110 43200 3600 1209600 180
+softver.org.mk.     86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010111 43200 3600 1209600 180
 
 softver.org.mk.     86400   IN  NS  ns0.slobodensoftver.org.mk.
 softver.org.mk.     86400   IN  NS  ns1.slobodensoftver.org.mk.
@@ -14,7 +14,7 @@ damjan.softver.org.mk.  1800    IN  A   77.93.223.195
 damjan.softver.org.mk.  1800    IN  AAAA    2a01:430:17:1::5a
 
 www.softver.org.mk.                 1800    IN  CNAME   softver.org.mk.
-paste.softver.org.mk.               1800    IN  CNAME   gdamjan.iriscouch.com.
+paste.softver.org.mk.               1800    IN  CNAME   damjan.softver.org.mk.
 irc.softver.org.mk.                 1800    IN  CNAME   damjan.softver.org.mk.
 db.softver.org.mk.                  1800    IN  CNAME   damjan.softver.org.mk.
 xn--80apaahi7a3c.softver.org.mk.    1800    IN  CNAME   damjan.softver.org.mk. 
