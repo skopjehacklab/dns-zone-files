@@ -58,6 +58,8 @@ kompjutor.ot.mk.     60  IN  CNAME   kompjutor.hopto.org.
 ; kabel na denot
 kabelnaden.ot.mk.   1800 IN  CNAME   radixcloud.com.
 
+;ufo tumblr
+odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com
 
 ; dynamic dns recordes
 ;
