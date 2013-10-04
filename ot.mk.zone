@@ -61,6 +61,9 @@ kabelnaden.ot.mk.   1800 IN  CNAME   radixcloud.com.
 ;ufo tumblr
 odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com
 
+;novica tumblr
+ideizadom.ot.mk     1800  IN  CNAME   domains.tumblr.com
+
 ; dynamic dns recordes
 ;
 ; Dynamic dns records must be manually added in the Dnsmadeeasy control panel.
