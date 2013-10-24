@@ -64,6 +64,9 @@ odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com
 ;novica tumblr
 ideizadom.ot.mk     1800  IN  CNAME   domains.tumblr.com
 
+;wildcard kon damjan
+*.ot.mk             1800  IN  CNAME   gdamjan.softver.org.mk.
+
 ; dynamic dns recordes
 ;
 ; Dynamic dns records must be manually added in the Dnsmadeeasy control panel.
