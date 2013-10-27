@@ -45,7 +45,7 @@ server.ot.mk.	1800    IN  A   192.241.174.141
 
 
 ; vladan, github
-kalkulator.ot.mk.   1800    IN  CNAME   vladan.github.com.
+kalkulator.ot.mk.   1800    IN  CNAME   vladan.github.io.
 
 
 ; hacklab
@@ -59,10 +59,11 @@ kompjutor.ot.mk.     60  IN  CNAME   kompjutor.hopto.org.
 kabelnaden.ot.mk.   1800 IN  CNAME   radixcloud.com.
 
 ;ufo tumblr
-odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com
+odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com.
 
 ;novica tumblr
-ideizadom.ot.mk     1800  IN  CNAME   domains.tumblr.com
+ideizadom.ot.mk     1800  IN  CNAME   domains.tumblr.com.
+narod.ot.mk         1800  IN  CNAME   novica.github.io.
 
 ;wildcard kon damjan
 *.ot.mk             1800  IN  CNAME   gdamjan.softver.org.mk.
