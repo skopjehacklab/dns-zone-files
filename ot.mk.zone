@@ -65,6 +65,9 @@ odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com.
 ideizadom.ot.mk.     1800  IN  CNAME   domains.tumblr.com.
 narod.ot.mk.         1800  IN  CNAME   novica.github.io.
 
+;Andrej github
+memegenerator.ot.mk. 1800   IN  CNAME skopjehacklab.github.io.
+
 ;wildcard kon damjan
 *.ot.mk.             1800  IN  CNAME   gdamjan.softver.org.mk.
 
