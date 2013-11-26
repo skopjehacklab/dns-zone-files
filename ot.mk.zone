@@ -62,11 +62,11 @@ kabelnaden.ot.mk.   1800 IN  CNAME   radixcloud.com.
 odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com.
 
 ;novica tumblr
-ideizadom.ot.mk     1800  IN  CNAME   domains.tumblr.com.
-narod.ot.mk         1800  IN  CNAME   novica.github.io.
+ideizadom.ot.mk.     1800  IN  CNAME   domains.tumblr.com.
+narod.ot.mk.         1800  IN  CNAME   novica.github.io.
 
 ;wildcard kon damjan
-*.ot.mk             1800  IN  CNAME   gdamjan.softver.org.mk.
+*.ot.mk.             1800  IN  CNAME   gdamjan.softver.org.mk.
 
 ; dynamic dns recordes
 ;
