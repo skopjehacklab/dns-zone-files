@@ -61,9 +61,10 @@ kabelnaden.ot.mk.   1800 IN  CNAME   radixcloud.com.
 ;ufo tumblr
 odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com.
 
-;novica tumblr
+;novica
 ideizadom.ot.mk.     1800  IN  CNAME   domains.tumblr.com.
 narod.ot.mk.         1800  IN  CNAME   novica.github.io.
+kalendar.ot.mk.      1800  IN  CNAME   novica.github.io.
 
 ;Andrej github
 memegenerator.ot.mk. 1800   IN  CNAME skopjehacklab.github.io.
