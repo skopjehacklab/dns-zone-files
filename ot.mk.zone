@@ -71,7 +71,8 @@ kalendar.ot.mk.      1800  IN  CNAME   novica.github.io.
 memegenerator.ot.mk. 1800   IN  CNAME skopjehacklab.github.io.
 
 ;wildcard kon damjan
-*.ot.mk.             1800  IN  CNAME   gdamjan.softver.org.mk.
+*.ot.mk.             1800  IN  CNAME   damjan.softver.org.mk.
+*.damjan.ot.mk.      1800   IN  CNAME  damjan.softver.org.mk.
 
 ; dynamic dns recordes
 ;
