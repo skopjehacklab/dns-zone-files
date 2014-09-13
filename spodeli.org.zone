@@ -61,3 +61,4 @@ geekslogs.spodeli.org.      1800    IN  CNAME   novica.github.io.
 
 ; andrej, computer from scratch kurs
 cfs.spodeli.org.            1800    IN  A       198.58.102.234
+computer-from-scratch.spodeli.org. 1800 IN CNAME cfs.spodeli.org.
