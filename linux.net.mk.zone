@@ -41,8 +41,8 @@ gnome.linux.net.mk. 	1800    IN  A   69.163.202.4
 stojmir.linux.net.mk.   1800    IN  A   69.163.202.4
 ubuntu.linux.net.mk.    1800    IN  A   69.163.202.4
 
-; glisha, webfaction
-planet.linux.net.mk.    1800    IN  CNAME   georgi.softver.org.mk.
+; glisha, digitalocean
+planet.linux.net.mk.    1800    IN  CNAME   georgi-vps.softver.org.mk.
 
 ; aleks, neotel
 arch.linux.net.mk.      1800    IN  CNAME   arch.softver.org.mk.

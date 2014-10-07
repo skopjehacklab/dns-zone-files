@@ -52,10 +52,6 @@ live.spodeli.org.       1800    IN  A   194.149.136.174
 kika.spodeli.org.       1800    IN  A   184.172.15.227
 
 
-; glisha, webfaction
-radio2.spodeli.org.         1800    IN  CNAME   georgi.softver.org.mk.
-radio2-static.spodeli.org   1800    IN  CNAME   georgi.softver.org.mk.
-
 ; novica github
 geekslogs.spodeli.org.      1800    IN  CNAME   novica.github.io.
 
