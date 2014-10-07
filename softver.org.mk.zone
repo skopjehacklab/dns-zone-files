@@ -29,13 +29,16 @@ lists.softver.org.mk.   1800     IN  SPF "v=spf1 a ~all"
 georgi.softver.org.mk.  1800    IN  A   5.153.9.57
 georgi.softver.org.mk.  1800    IN  AAAA    2a03:8180:1001:b2:17::1b
 
-irclogger.softver.org.mk.   1800    IN  CNAME   georgi.softver.org.mk.
-kajmakot.softver.org.mk.    1800    IN  CNAME   georgi.softver.org.mk.
-planet.softver.org.mk.      1800    IN  CNAME   georgi.softver.org.mk.
-rss.softver.org.mk.         1800    IN  CNAME   georgi.softver.org.mk.
-radio.softver.org.mk        1800    IN  CNAME   georgi.softver.org.mk.
+; glisha, digitalocean
+georgi-vps.softver.org.mk    1800 IN A  178.62.47.142
+georgi-vps.softver.org.mk    1800 IN AAAA 2a03:b0c0:1:d0::149:3001
 
-el3na77.softver.org.mk.     1800    IN  A   5.153.9.57
+
+irclogger.softver.org.mk.   1800    IN  CNAME   damjan.softver.org.mk.
+kajmakot.softver.org.mk.    1800    IN  CNAME   georgi-vps.softver.org.mk.
+planet.softver.org.mk.      1800    IN  CNAME   georgi-vps.softver.org.mk.
+rss.softver.org.mk.         1800    IN  CNAME   georgi-vps.softver.org.mk.
+radio.softver.org.mk        1800    IN  CNAME   georgi-vps.softver.org.mk.
 
 ; aleks
 aleks.softver.org.mk.   1800    IN  CNAME   kompjutor.hopto.org.
