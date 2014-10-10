@@ -7,6 +7,50 @@ ie.mk.	86400   IN  NS  ns2.slobodensoftver.org.mk.
 ie.mk.	86400   IN  NS  ns3.slobodensoftver.org.mk.
 ie.mk.	86400   IN  NS  ns4.slobodensoftver.org.mk.
 
+
 ; damjan, vps
 ie.mk.	    1800    IN  A   77.93.223.195
+ie.mk.      1800    IN  MX  10 lists.softver.org.mk.
+
+
+; [ilin], digitalocean
+znc.ie.mk.          1800 IN A 192.241.174.141
+
+
+; aleks
+kompjutorot.ie.mk.  60 IN CNAME kompjutor.hopto.org.
+
+
+;novica
+n.ie.mk.            1800  IN  CNAME   novica.github.io.
+goli.n.ie.mk        1800  IN  CNAME   novica.github.io.
+goli.t.ie.mk.       1800  IN  CNAME   domains.tumblr.com.
+
+
+;glisha
+domarpi.ie.mk.      1800    IN  CNAME   georgi.servehttp.com.
+domawrt.ie.mk.      1800    IN  CNAME   georgi.servehttp.com.
+
+;hacklab
+danok.m.ie.mk.          1800    IN  CNAME   skopjehacklab.github.io.
+dvoarak.hacklab.ie.mk.  1800    IN  AAAA    2001:470:1f0b:109:20c:76ff:fe5d:1c9c
+
+
+; damjan, vps
+preobrazen.ie.mk    1800    IN  CNAME   damjan.softver.org.mk.
+ip.ie.mk.           1800    IN  CNAME   damjan.softver.org.mk.
+myip.ie.mk.         1800    IN  CNAME   damjan.softver.org.mk.
+ipv4.ie.mk.         1800    IN  A       77.93.223.195
+ipv6.ie.mk.         1800    IN  AAAA    2a01:430:17:1::5a
+
 *.ie.mk.    1800    IN  A   77.93.223.195
+
+; dynamic dns recordes
+;
+; Dynamic dns records must be manually added in the Dnsmadeeasy control panel.
+; Add them here for reference.
+;
+;;damjan.ie.mk.
+;;hacklab.ie.mk.
+;;blizoo-hacklab.ie.mk.
+;;telekabel-hacklab.ie.mk.
