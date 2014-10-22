@@ -26,8 +26,8 @@ lists.softver.org.mk.   1800     IN  TXT "v=spf1 a ~all"
 lists.softver.org.mk.   1800     IN  SPF "v=spf1 a ~all"
 
 ; glisha, webfaction
-georgi.softver.org.mk.  1800    IN  A   5.153.9.57
-georgi.softver.org.mk.  1800    IN  AAAA    2a03:8180:1001:b2:17::1b
+georgi.softver.org.mk.  1800    IN  A   178.62.47.142
+georgi.softver.org.mk.  1800    IN  AAAA 2a03:b0c0:1:d0::149:3001
 
 ; glisha, digitalocean
 georgi-vps.softver.org.mk    1800 IN A  178.62.47.142
