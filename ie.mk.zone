@@ -48,6 +48,9 @@ zasedan.ie.mk.      1800    IN  A       67.220.184.98
 
 *.ie.mk.    1800    IN  A   77.93.223.195
 
+_xmpp-client._tcp.damjan.ie.mk. 86400 IN SRV 5 0 5222 damjan.ie.mk.
+_xmpp-server._tcp.damjan.ie.mk. 86400 IN SRV 5 0 5269 damjan.ie.mk.
+
 ; dynamic dns recordes
 ;
 ; Dynamic dns records must be manually added in the Dnsmadeeasy control panel.
