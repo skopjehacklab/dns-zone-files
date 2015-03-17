@@ -39,7 +39,7 @@ status.spodeli.org.     1800    IN  CNAME   kikastatus.herokuapp.com.
 
 
 ; miopa, webfaction
-radio.spodeli.org.          1800    IN  A   62.212.65.160
+radio.spodeli.org.          1800    IN  A   37.58.75.237
 radio1.spodeli.org.         1800    IN  CNAME   radio.spodeli.org.
 radio1-static.spodeli.org   1800    IN  CNAME   radio.spodeli.org.
 
