@@ -56,4 +56,4 @@ kika.spodeli.org.       1800    IN  A   184.172.15.227
 geekslogs.spodeli.org.      1800    IN  CNAME   novica.github.io.
 
 ; andrej, computer from scratch kurs (new)
-dkn.spodeli.org.            1800    IN  CNAME    whoeverest.github.io
+dkn.spodeli.org.            1800    IN  CNAME    skopjehacklab.github.io
