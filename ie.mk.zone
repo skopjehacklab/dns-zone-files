@@ -30,6 +30,8 @@ goli.t.ie.mk.       1800  IN  CNAME   domains.tumblr.com.
 ;glisha
 domarpi.ie.mk.      1800    IN  CNAME   georgi.servehttp.com.
 domawrt.ie.mk.      1800    IN  CNAME   georgi.servehttp.com.
+balkan.ie.mk.       1800    IN  CNAME   planet.softver.org.mk.
+
 
 ;hacklab
 plata.m.ie.mk.          1800    IN  CNAME   skopjehacklab.github.io.
