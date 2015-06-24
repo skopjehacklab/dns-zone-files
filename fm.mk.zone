@@ -1,0 +1,10 @@
+;fm.mk
+fm.mk.          86400   IN  SOA ns0.slobodensoftver.org.mk. info.slobodensoftver.org.mk. 2014050602 43200 3600 1209600 180
+
+fm.mk.          86400   IN  NS  ns0.slobodensoftver.org.mk.
+fm.mk.          86400   IN  NS  ns1.slobodensoftver.org.mk.
+fm.mk.          86400   IN  NS  ns2.slobodensoftver.org.mk.
+fm.mk.          86400   IN  NS  ns3.slobodensoftver.org.mk.
+fm.mk.          86400   IN  NS  ns4.slobodensoftver.org.mk.
+
+
