@@ -1,12 +1,13 @@
 #!/bin/bash
 
-WARNDAYS=140
+WARNDAYS=60
 
 if [ -z $1 ]; then
     echo "Usage: $0 list_of_ssl_enabled_domains.txt"
     exit 1
 fi
 
+ispis=""
 while read domain
 do
     if [[ ! $domain =~ ^# ]]; then
@@ -16,12 +17,13 @@ do
         expires_days=$((($cert_expires_formated - $today)/60/60/24))
 
         if [[ "$expires_days" -lt "0" ]]; then
-            echo "PANIC, PANIC, PANIC: SSL for $domain expired $expires_days ago!!!"
+            ispis+="$expires_days days ago did the ssl cert for $domain expire.\e[41m(PANIC)\e[49m\n"
         elif [[ "$expires_days" -lt "$WARNDAYS" ]]; then
-            echo "WARNING: SSL for $domain will expire in $expires_days days (on $cert_expires)."
+            ispis+="\e[7m$expires_days\e[27m days until \e[7m$domain\e[27m ssl cert expires (on $cert_expires). \e[7m(WARNING)\e[27m\n"
         else
-            echo "SSL for $domain expires in $expires_days days (on $cert_expires)."
+            ispis+="$expires_days days until $domain ssl cert expires (on $cert_expires).\n"
         fi
     fi
 
 done < $1
+echo -e $ispis | sort --reverse --general-numeric-sort --ignore-leading-blanks
