@@ -66,3 +66,4 @@ _xmpp-server._tcp.damjan.ie.mk. 86400 IN SRV 5 0 5269 damjan.ie.mk.
 ;;hacklab.ie.mk.
 ;;blizoo-hacklab.ie.mk.
 ;;telekabel-hacklab.ie.mk.
+;;dimitrovskif.ie.mk.
