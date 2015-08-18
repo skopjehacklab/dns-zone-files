@@ -6,6 +6,7 @@ if [ -z $1 ]; then
     echo "Usage: $0 list_of_ssl_enabled_domains.txt"
     exit 1
 fi
+DOMAIN_LIST=$1
 
 function PANIC () {
   echo -e "$1 days ago did the ssl cert for $2 expire.\e[41m(PANIC)\e[49m\n"
@@ -17,7 +18,7 @@ function INFO () {
   echo -e "$1 days until $2 ssl cert expires (on $3)."
 }
 
-egrep -v '^#' $1 | egrep -v '^[[:space:]]*$' |
+egrep -v '^#' $DOMAIN_LIST | egrep -v '^[[:space:]]*$' |
 ( while read domain
 do
     cert=`openssl s_client -servername $domain -connect $domain:443 </dev/null 2>/dev/null`
