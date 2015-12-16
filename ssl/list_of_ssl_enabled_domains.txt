@@ -1,4 +1,5 @@
 # List of SSL enabled domains with StartSSL certificates
+db.softver.org.mk
 paste.softver.org.mk
 georgi.softver.org.mk
 planet.softver.org.mk
