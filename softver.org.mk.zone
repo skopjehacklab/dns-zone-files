@@ -47,7 +47,6 @@ aleks.softver.org.mk.   1800    IN  CNAME   kompjutor.hopto.org.
 
 ; aleks, neotel
 arch.softver.org.mk.    1800    IN  A   92.55.94.9
-arch.softver.org.mk.    1800    IN  AAAA    2001:470:1f14:1e77::2
 
 
 ; bidikov
