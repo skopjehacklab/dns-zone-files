@@ -1,4 +1,4 @@
-# List of SSL enabled domains with StartSSL certificates
+# List of SSL enabled domains
 db.softver.org.mk
 paste.softver.org.mk
 georgi.softver.org.mk
@@ -12,3 +12,4 @@ znc.ie.mk
 bugs.spodeli.org
 wiki.spodeli.org
 www.slobodensoftver.org.mk
+arch.softver.org.mk
