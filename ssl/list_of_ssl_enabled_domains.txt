@@ -12,4 +12,5 @@ znc.ie.mk
 bugs.spodeli.org
 wiki.spodeli.org
 www.slobodensoftver.org.mk
+slobodensoftver.org.mk
 arch.softver.org.mk
