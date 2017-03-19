@@ -15,3 +15,4 @@ www.slobodensoftver.org.mk:443
 slobodensoftver.org.mk:443
 arch.softver.org.mk:443
 grafana.softver.org.mk:443
+arangel.linux.net.mk:443
