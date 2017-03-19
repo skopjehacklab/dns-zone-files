@@ -14,3 +14,4 @@ wiki.spodeli.org:443
 www.slobodensoftver.org.mk:443
 slobodensoftver.org.mk:443
 arch.softver.org.mk:443
+grafana.softver.org.mk:443
