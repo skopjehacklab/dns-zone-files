@@ -7,4 +7,5 @@ dalieveligden.mk.       86400   IN  NS  ns2.slobodensoftver.org.mk.
 dalieveligden.mk.       86400   IN  NS  ns3.slobodensoftver.org.mk.
 dalieveligden.mk.       86400   IN  NS  ns4.slobodensoftver.org.mk.
 
-dalieveligden.mk.       3600    IN  CNAME glisha.github.io.
+dalieveligden.mk.       3600    IN  ANAME glisha.github.io.
+www                     3600    IN  CNAME glisha.github.io.
