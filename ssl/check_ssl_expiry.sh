@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WARNDAYS=60
+WARNDAYS=20
 
 if [ -z $1 ]; then
     echo "Usage: $0 list_of_ssl_enabled_domains.txt"
@@ -19,19 +19,24 @@ function INFO () {
 }
 
 egrep -v '^#' $DOMAIN_LIST | egrep -v '^[[:space:]]*$' |
-( while read domain
+( while read line
 do
-    cert=`openssl s_client -servername $domain -connect $domain:443 </dev/null 2>/dev/null`
+    host=${line%:*}
+    port=${line#*:}
+    cert=`openssl s_client -servername "$host" -connect "$host:$port" </dev/null 2>/dev/null`
     cert_expires=`echo "$cert" | openssl x509 -noout -enddate | cut -f2 -d=`
+    issuer=`echo "$cert" | openssl x509 -noout -issuer`
+    issuer=${issuer#*/O=}
+    issuer=${issuer%%/*}
     today=`date +%s`
     cert_expires_formated=`date --date="$cert_expires" +%s`
     expires_days=$((($cert_expires_formated - $today)/60/60/24))
 
     if [[ "$expires_days" -lt "0" ]]; then
-        PANIC $expires_days $domain
+        PANIC $expires_days "$host" "$issuer"
     elif [[ "$expires_days" -lt "$WARNDAYS" ]]; then
-        WARN $expires_days $domain $cert_expires
+        WARN $expires_days "$host" "$cert_expires" "$issuer"
     else
-        INFO $expires_days $domain $cert_expires
+        INFO $expires_days "$host" "$cert_expires" "$issuer"
     fi
 done ) | sort --reverse --general-numeric-sort --ignore-leading-blanks

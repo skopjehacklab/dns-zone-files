@@ -1,5 +1,5 @@
 ;ot.mk
-ot.mk.          86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2008010180 43200 3600 1209600 180
+ot.mk.          86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2017112101 43200 3600 1209600 180
 
 ot.mk.          86400   IN  NS  ns0.dnsmadeeasy.com.
 ot.mk.          86400   IN  NS  ns1.dnsmadeeasy.com.
@@ -8,76 +8,5 @@ ot.mk.          86400   IN  NS  ns3.dnsmadeeasy.com.
 ot.mk.          86400   IN  NS  ns4.dnsmadeeasy.com.
 
 
-; glisha, webfaction
-ot.mk.				1800    IN  A   5.153.9.57
-aparat.ot.mk.		1800    IN  A   5.153.9.57
-blog.ot.mk.     	1800    IN  A   5.153.9.57
-domejn.ot.mk.       1800    IN  A   5.153.9.57
-testip.ot.mk.       1800    IN	A   5.153.9.57
-kajmak.ot.mk.       1800    IN  A   5.153.9.57
-
-www.ot.mk.			1800    IN	CNAME	ot.mk.
-domarpi.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
-domawrt.ot.mk.      60      IN  CNAME   georgi.servehttp.com.
-
-ot.mk.          	1800    IN  AAAA    2a03:8180:1001:b2:17::1b
-domejn.ot.mk.       1800    IN  AAAA    2a03:8180:1001:b2:17::1b
-
-
-; gdamjan, vps
-ip.ot.mk.       1800    IN  A   77.93.223.195
-myip.ot.mk.     1800    IN	A   77.93.223.195
-ipv4.ot.mk.     1800    IN  A   77.93.223.195
-convertor.ot.mk.    1800    IN  A   77.93.223.195
-
-ot.mk.          1800    IN  MX  10 lists.softver.org.mk.
-
-ip.ot.mk.       1800    IN  AAAA    2a01:430:17:1::5a
-ipv6.ot.mk.     1800    IN  AAAA    2a01:430:17:1::5a
-myip.ot.mk.       1800    IN  AAAA    2a01:430:17:1::5a
-convertor.ot.mk.    1200    IN  AAAA    2a01:430:17:1::5a
-
-
-gulab.ot.mk.    1800    IN  A    77.93.223.195
-
-
-; [ilin], digitalocean
-server.ot.mk.	1800    IN  A   192.241.174.141
-
-
-; vladan, github
-kalkulator.ot.mk.   1800    IN  CNAME   vladan.github.io.
-
-
-; hacklab
-dvoarak.hacklab.ot.mk.  1800    IN  AAAA    2001:470:1f0b:109:20c:76ff:fe5d:1c9c
-
-
-; aleks
-kompjutor.ot.mk.     60  IN  CNAME   kompjutor.hopto.org.
-kabelnaden.ot.mk.   1800 IN  CNAME   radixcloud.com.
-
-;ufo tumblr
-odrodeni.ot.mk.     1800 IN   CNAME   domains.tumblr.com.
-
-;novica
-ideizadom.ot.mk.     1800  IN  CNAME   domains.tumblr.com.
-narod.ot.mk.         1800  IN  CNAME   novica.github.io.
-kalendar.ot.mk.      1800  IN  CNAME   novica.github.io.
-
-;Andrej github
-memegenerator.ot.mk. 1800   IN  CNAME skopjehacklab.github.io.
-
-;wildcard kon damjan
-*.ot.mk.             1800  IN  CNAME   damjan.softver.org.mk.
-*.damjan.ot.mk.      1800   IN  CNAME  damjan.ot.mk.
-
-; dynamic dns recordes
-;
-; Dynamic dns records must be manually added in the Dnsmadeeasy control panel.
-; Add them here for reference.
-;
-;;damjan.ot.mk.
-;;hacklab.ot.mk.
-;;blizoo-hacklab.ot.mk
-;;telekabel-hacklab.ot.mk
+;wildcard kon damjan vps
+*.ot.mk.    1800    IN  A   77.93.223.195

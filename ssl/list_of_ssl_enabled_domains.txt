@@ -1,13 +1,18 @@
-# List of SSL enabled domains with StartSSL certificates
-paste.softver.org.mk
-georgi.softver.org.mk
-planet.softver.org.mk
-damjan.softver.org.mk
-irc.softver.org.mk
-lists.softver.org.mk
-rss.softver.org.mk
-damjan.ie.mk
-znc.ie.mk
-bugs.spodeli.org
-wiki.spodeli.org
-www.slobodensoftver.org.mk
+# List of SSL enabled domains
+db.softver.org.mk:443
+paste.softver.org.mk:443
+georgi.softver.org.mk:443
+planet.softver.org.mk:443
+damjan.softver.org.mk:443
+irc.softver.org.mk:443
+lists.softver.org.mk:443
+rss.softver.org.mk:443
+damjan.ie.mk:443
+znc.ie.mk:443
+bugs.spodeli.org:443
+wiki.spodeli.org:443
+www.slobodensoftver.org.mk:443
+slobodensoftver.org.mk:443
+arch.softver.org.mk:443
+grafana.softver.org.mk:443
+arangel.linux.net.mk:443

@@ -51,6 +51,8 @@ zasedan.ie.mk.      1800    IN  A       67.220.184.98
 
 ;goce
 dpmne.samovol.ie.mk.  1800  IN  CNAME gocemitevski.github.io.
+pomiluvan.ie.mk. 1800  IN  CNAME gocemitevski.github.io.
+sharena-revolucija.ie.mk. 1800  IN  CNAME gocemitevski.github.io.
 
 *.ie.mk.    1800    IN  A   77.93.223.195
 
