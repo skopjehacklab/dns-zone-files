@@ -1,12 +1,10 @@
 ;dalieveligden.mk
-dalieveligden.mk.          86400   IN  SOA ns0.dnsmadeeasy.com. dns.dnsmadeeasy.com. 2017112101 43200 3600 1209600 180
+dalieveligden.mk.       86400   IN  SOA ns0.slobodensoftver.org.mk. info.slobodensoftver.org.mk. 20171130001 43200 3600 1209600 180
 
-dalieveligden.mk.          86400   IN  NS  ns0.dnsmadeeasy.com.
-dalieveligden.mk.          86400   IN  NS  ns1.dnsmadeeasy.com.
-dalieveligden.mk.          86400   IN  NS  ns2.dnsmadeeasy.com.
-dalieveligden.mk.          86400   IN  NS  ns3.dnsmadeeasy.com.
-dalieveligden.mk.          86400   IN  NS  ns4.dnsmadeeasy.com.
+dalieveligden.mk.       86400   IN  NS  ns0.slobodensoftver.org.mk.
+dalieveligden.mk.       86400   IN  NS  ns1.slobodensoftver.org.mk.
+dalieveligden.mk.       86400   IN  NS  ns2.slobodensoftver.org.mk.
+dalieveligden.mk.       86400   IN  NS  ns3.slobodensoftver.org.mk.
+dalieveligden.mk.       86400   IN  NS  ns4.slobodensoftver.org.mk.
 
-
-;wildcard kon damjan vps
-*.ot.mk.    1800    IN  A   77.93.223.195
+dalieveligden.mk.       3600    IN  CNAME glisha.github.io.
