@@ -57,3 +57,6 @@ geekslogs.spodeli.org.      1800    IN  CNAME   novica.github.io.
 
 ; andrej, computer from scratch kurs (new)
 dkn.spodeli.org.            1800    IN  CNAME    skopjehacklab.github.io.
+
+; glisha github
+holandija.spodeli.org.              1800    IN  CNAME glisha.github.io.
