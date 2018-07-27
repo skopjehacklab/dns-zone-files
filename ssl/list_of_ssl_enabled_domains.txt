@@ -8,6 +8,7 @@ irc.softver.org.mk:443
 lists.softver.org.mk:443
 rss.softver.org.mk:443
 damjan.ie.mk:443
+virt.damjan.ie.mk:443
 znc.ie.mk:443
 bugs.spodeli.org:443
 wiki.spodeli.org:443
