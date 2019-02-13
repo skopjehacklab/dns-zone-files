@@ -47,7 +47,7 @@ ipv4.ie.mk.         1800    IN  A       77.93.223.195
 ipv6.ie.mk.         1800    IN  AAAA    2a01:430:17:1::5a
 
 ;novica, lozarite.mk
-zasedan.ie.mk.      1800    IN  A       67.220.184.98
+zasedan.ie.mk.      1800    IN  A       23.227.133.50
 
 ;goce
 dpmne.samovol.ie.mk.  1800  IN  CNAME gocemitevski.github.io.
