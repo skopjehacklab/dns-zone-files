@@ -17,5 +17,9 @@ slobodensoftver.org.mk:443
 arch.softver.org.mk:443
 grafana.softver.org.mk:443
 #arangel.linux.net.mk:443
-hacklab.ie.mk:443
+#hacklab.ie.mk:443
 spodeli.org:443
+chat.softver.org.mk:443
+convertor.ot.mk:443
+rss.softver.org.mk:443
+lounge.softver.org.mk:443
