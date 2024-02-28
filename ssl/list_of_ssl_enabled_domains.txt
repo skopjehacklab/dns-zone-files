@@ -1,7 +1,6 @@
 # List of SSL enabled domains
 db.softver.org.mk:443
 paste.softver.org.mk:443
-georgi.softver.org.mk:443
 planet.softver.org.mk:443
 damjan.softver.org.mk:443
 irc.softver.org.mk:443
