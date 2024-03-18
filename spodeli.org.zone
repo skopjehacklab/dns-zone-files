@@ -38,8 +38,8 @@ spodeli.org.        1800    IN  A       77.93.223.195
 status.spodeli.org.     1800    IN  CNAME   gocemitevski.github.io.
 
 
-; miopa, opalstack
-radio.spodeli.org.          1800    IN  A   46.165.217.151
+; miopa, hetzner
+radio.spodeli.org.          1800    IN  A   176.9.150.152
 radio1.spodeli.org.         1800    IN  CNAME   radio.spodeli.org.
 radio1-static.spodeli.org   1800    IN  CNAME   radio.spodeli.org.
 

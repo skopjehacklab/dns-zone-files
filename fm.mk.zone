@@ -8,4 +8,4 @@ fm.mk.          86400   IN  NS  ns3.slobodensoftver.org.mk.
 fm.mk.          86400   IN  NS  ns4.slobodensoftver.org.mk.
 
 ;miopa
-103.fm.mk.      1800    IN  A   46.165.217.151
+103.fm.mk.      1800    IN  CNAME   radio.spodeli.org.
